@@ -115,4 +115,7 @@ class DataTab7(models.Model):
     civil_status = models.IntegerField()
     level = models.CharField(max_length=200)
     career = models.CharField(max_length=500)
-    age = models.IntegerField()
+    age = models.IntegerField()  
+    
+
+    
